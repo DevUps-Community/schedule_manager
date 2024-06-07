@@ -11,6 +11,24 @@ Build a schedule management system for admins to manage client appointments and 
 3. **Appointment Booking:**
    - Enable appointment booking and tracking.
 
+## Description
+This project aims to build a schedule management system for admins to manage client appointments and sessions.
+
+**Aspects to Consider:**
+
+- **Schema Design:**
+  - Plan how to store appointment details, client associations, and scheduling information.
+  - Consider how to handle recurring appointments and reminders.
+
+- **React App Design:**
+  - Design components for admin login, schedule viewing, and appointment booking.
+  - Ensure a user-friendly interface for managing schedules and appointments.
+
+- **Best Practices:**
+  - Implement secure and efficient appointment management.
+  - Ensure accurate scheduling and conflict detection.
+  - Provide clear and actionable notifications for upcoming appointments.
+
 ## Technical Requirements
 - **Backend:** Node.js with Express
 - **Database:** Supabase
@@ -18,7 +36,7 @@ Build a schedule management system for admins to manage client appointments and 
 
 ## Steps to Build
 1. **Set up the project:**
-   - Initialize a new Node.js project.
+   - Initialise a new Node.js project.
    - Set up Supabase and connect it to the project.
 2. **Authentication:**
    - Implement admin login with Supabase Auth.
